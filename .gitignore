@@ -1,10 +1,21 @@
-*.env
-*/env
-/env
+# Ignora o arquivo de ambiente
+.env
+
+# Ignora diretórios de ambientes virtuais
+env/
+*/env/
+
+# Ignora arquivos sensíveis
 API_GROQ.rtf
 *.API_GROQ.rtf
+
+# Arquivos temporários ou de testes
 teste.txt
 Runnables.py
-.idea
-*.idea
+
+# Configurações de IDE (como o PyCharm)
+.idea/
+*.idea/
+
+# Ignora o próprio .gitignore (embora não necessário, inofensivo)
 .gitignore
