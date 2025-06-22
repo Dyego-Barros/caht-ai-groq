@@ -1,0 +1,5 @@
+*.env
+*/env
+/env
+API_GROQ.rtf
+*.API_GROQ.rtf
